@@ -46,8 +46,8 @@ let computerScore = 0
 while (cont <= 5){
     cont++
     let cmptrchc = getComputerChoice()
-    console.log(cmptrchc)
     let hmnchc = getHumanChoice()
+    console.log(cmptrchc)
     console.log(hmnchc)
     round = playRound(hmnchc,cmptrchc)
     if (round === 1){
